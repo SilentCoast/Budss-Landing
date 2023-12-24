@@ -1,0 +1,356 @@
+:root{
+    --primary01:#954CED;
+    --primary02:#A64CED;
+    --secondary01:#2FDBBC;
+    --secondary02:#FFAA4C;
+    --grayscale00:#000000;
+    --grayscale01:#181818;
+    --grayscale02:#444444;
+    --grayscale03:#B9B9B9;
+    --grayscale04:#CFCFCF;
+    --grayscale06:#F5F5F5;
+    --grayscale07:#FFFFFF;
+}
+
+body{
+    background-color: var(--grayscale01);
+    color: white;
+    font-family: outfit;
+    padding: 0;
+    margin: 0;
+}
+input::placeholder {
+    font-family: outfit;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header{
+    width: 100%; background-color: var(--grayscale01);
+}
+.header-inner{
+    margin-top: 5px; width: 90%; transform: translate(5%); display: flex; justify-content: space-between; align-items: center;
+}
+.header-inner-menu{
+    position: absolute; transform: translate(100%,15%);
+}
+.header-btn-menu{
+    background-image: url(images/menu.png); background-size: 100%; background-repeat: no-repeat;
+                    height: 50px; width: 50px; background-color: transparent; border-width: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.txt-logo{
+    font-weight: 600;
+}
+.btn-contact-sales{
+    background-color: var(--primary01);
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 16px;
+    color: white;
+    font-family: outfit;
+}
+.btn-store{
+    background-color: transparent; 
+    border-radius: 5px; 
+    border-width: 0;
+    height: 57px;
+}
+.tdsep{
+    width: 125px;
+}
+.right-align{
+    float: right;
+}
+
+
+#txtbudss{
+    text-align: center;
+}
+.separator-height-10{
+    height: 10px;
+}
+.gray-text{
+    color: var(--grayscale02);
+                    text-shadow: -1px 0 var(--grayscale03), 0 1px var(--grayscale03),
+                     1px 0 var(--grayscale03), 0 -1px var(--grayscale03);
+}
+.secondary01-text{
+    color: var(--secondary01);
+}
+.primary02-text{
+    color: var(--primary02);
+}
+.secondary02-text{
+    color: var(--secondary02);
+}
+.label{
+    border-radius: 14px;
+    padding: 10px;
+    width: 340px;
+}
+.span-red{
+    color: red;
+}
+
+.div-why-budss{
+    margin-top: 20px; color: var(--grayscale00); display: flex; flex-direction: column; gap: 20px;
+}
+.btn-close{
+    background-image:url(images/close.png); background-repeat: no-repeat;
+            width: 20px; height: 20px; border: none; background-color: transparent; 
+            position: absolute; top: 10px; right: 10px;
+}
+@media (max-width:599px){
+    .desktop {
+        display: none;
+      }
+    
+      .mobile {
+        display: block;
+      }
+    .img-logo{
+        scale: 0.8;
+    }
+    .txt-logo{
+        font-size: 29.6px;
+    }
+    .header-btn-contact-sales{
+        visibility: collapse;
+    }
+    
+    #everyone-is-an-influencer{
+        
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+    #img-left-graphic{
+        visibility: collapse;
+    }
+    #img-cool-girl{
+        height: 290; 
+        width: 290;
+    }
+    
+    #about-budss{
+        margin-left: 30px;
+    }
+
+    #about-budss-grid{
+        margin-top: 50px; 
+    }
+    #stats{
+        flex-direction: column;
+        gap: 30px; padding: 25px;
+    }
+    .flex-row{
+        display: flex; align-items: center; gap: 30px;
+    }
+    #why-budss-1{
+        width: 100%; height: 522px; background-position: bottom left;
+    }
+    #txt-and-logos{
+        flex-direction: column;
+    }
+    #logos{
+        flex-direction: column;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: left;
+        gap: 20px;
+    }
+    #btn-contact-sales-footer{
+        width: 194px;
+    }
+    .row-column{
+        flex-direction: column;
+    }
+    .T1-T4{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .T2-T6{
+        font-size: 40px;
+        font-weight: 700;
+    }  
+    .T3-T6{
+        font-size: 40px;
+        font-weight: 700;
+    }  
+    .T4-T7{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .T5-T7{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .S1-S2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .S2-S4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .S3-B2{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .S3-S6{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .S6-B2{
+        font-size: 16x;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 600px){
+    .desktop {
+        display: block;
+      }
+      
+      .mobile {
+        display: none;
+      }
+    .txt-logo{
+        font-size: 37px;
+    }
+    
+    .header-btn-menu{
+        visibility: collapse;
+    }
+    #everyone-is-an-influencer{
+        margin-left: 100px; 
+        display: flex; 
+        justify-content: space-between;
+    }
+    #img-cool-girl{
+        height: 529; 
+        width: 529;
+    }
+    #txt-about-budss{
+        margin-left: 70px;
+    }
+    #about-budss-container{
+        display: grid; grid-template-columns: repeat(2, 1fr);
+    }
+    #txt-budss-definition{
+        margin-left: 70px;
+    }
+    #about-budss-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+    #stats{
+        gap: 90px; padding: 25px;
+    }
+    #why-budss-1{
+        height: 362px;
+    }
+    #why-budss-1-txt{
+        margin-left: 329px; width: 364px;
+    }
+    .div-why-budss{
+        flex-direction: row;
+    }
+    #txt-and-logos{
+        flex-direction: row;
+    }
+    .row-column{
+        flex-direction: row;
+    }
+    #footer{
+        align-items: center;
+    }
+    .T1-T4{
+        font-size: 128px;
+        font-weight: 700;
+    }
+    .T2-T6{
+        font-size: 96px;
+        font-weight: 700;
+    }
+    .T3-T6{
+        font-size: 64px;
+        font-weight: 700;
+    }
+    .T4-T7{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .T5-T7{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .S1-S2{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .S2-S4{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .S3-B2{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .S3-S6{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .S6-B2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.S4_SemiBold_20{
+    font-size: 20px;
+    font-weight: 600;
+}
+.S5_Medium_20{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.B1_Medium_16{
+    font-size: 16px;
+    font-weight: 500;
+}
+.B3{
+    font-size: 14px;
+    font-weight: 500;
+}
+.B3-700{
+    font-size: 14px;
+    font-weight: 700;
+}
+.B4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.B5_Light_14{
+    font-size: 14px;
+    font-weight: 300;
+}

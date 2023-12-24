@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bussiness</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    </head>
+    <body>
+        <header id="fixed-header" class="header" style="visibility: hidden; z-index: 10;position: fixed;">
+            <div class="header-inner header-inner-menu">
+                <button class="header-btn-menu right-align"></button>
+            </div>
+            <div class="header-inner">
+                <div class="logo">
+                    <img class="img-logo" src="images/logo.png" alt="logo">
+                    <div class="txt-logo">budss</div>
+                </div>
+                <button class="header-btn-contact-sales btn-contact-sales right-align S4_SemiBold_20">Contact sales</button>
+            </div>
+            
+            <div class="separator-height-10"></div>
+        </header>
+
+        <div style=" background-color: var(--secondary02);">
+            <div style=" height: 45px; width: 90%; transform: translate(5%); display: flex; gap: 40px;">
+                <button style="background-color: var(--grayscale01); 
+                color: var(--grayscale07); border-width: 0; 
+                border-radius: 20px 20px 0px 0px; padding-left: 30px; padding-right: 30px;" class="B1_Medium_16"
+                >For Business</button>
+                <button style="background: transparent; border-width: 0; color: var(--grayscale00);" class="B1_Medium_16">For Customers</button>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header-inner header-inner-menu">
+                <button class="header-btn-menu right-align"></button>
+            </div>
+            <div class="header-inner">
+                <div class="logo">
+                    <img class="img-logo" src="images/logo.png" alt="logo">
+                    <div class="txt-logo">budss</div>
+                </div>
+                <button class="header-btn-contact-sales btn-contact-sales right-align S4_SemiBold_20">Contact sales</button>
+            </div>
+            <div class="separator-height-10"></div>
+        </header>
+        
+
+        <div style="height: 100px;"></div>
+        <section id="everyone-is-an-influencer">
+            <div >
+                <span class="T2-T6">Everyone<br> is an Influencer</span>
+                <div class="S6-B2">Budss is a payments as a service and WOM engine dedicated<br> to acquisition and retention of customers to your business.</div>
+                <button style="margin-top: 10px;" class="btn-contact-sales S4_SemiBold_20">Contact sales</button>
+            </div>
+
+            <img id="img-cool-girl" class="right-align" src="images/coolgirl.png" alt="girl looking cool">
+        </section>
+
+        <section id="about-budss">
+            <div id="txt-about-budss" class="T2-T6">About Budss</div>
+            <div id="about-budss-container" style="margin-top: 20px;">
+                
+                <div style="position: relative;">
+                    <div id="txt-budss-definition">
+                        <div class="S1-S2">Payment as a service,<br> powered seamlessly by </div>
+                        <div style="display: flex;">
+                            <div class="S1-S2">our</div>
+                            <div style="background-image: url(images/line.png); background-repeat: no-repeat; white-space: pre;" 
+                            class="S1-S2"> network of shoppers  </div>
+                        </div>
+                    </div>
+                    
+                    <img id="img-left-graphic" style="position: absolute; bottom: 0;" src="images/left-graphic.png" alt="some cool picture">
+                </div>
+                <div id="about-budss-grid">
+                    <div>
+                        <img src="images/contactless.png" alt="contactless">
+                        <div class="T4-T7">Contactless</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S3-B2">Budss uses near field<br>
+                             communication (NFC) for<br>
+                              making contactless payments.</div>
+                    </div>
+                    <div>
+                        <img src="images/increased-buing-power.png" alt="increased-buing-power">
+                        <div class="T4-T7">Increased<br> Buying Power</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S3-B2">Returning customers spend<br>
+                             up to 3X more.</div>
+                    </div>
+                    <div>
+                        <img src="images/analytics.png" alt="analytics">
+                        <div class="T4-T7">Analytics<br> & Insights</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S3-B2">Gain a holistic view into your<br>
+                             customers’ buying behavior<br> & purchasing patterns. </div>
+                    </div>
+                    <div>
+                        <img src="images/froud-protection.png" alt="froud-protection">
+                        <div class="T4-T7">Fraud<br> Protection</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S3-B2">Budss handles all payments<br> with
+                             a fraud prevention<br> algorithm to flag
+                              high risk<br>
+                               purchases & a user set PIN code<br>
+                                to keep payment info secure. </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div style="height: 70px;"></div>
+        
+        <section id="how-budss-works" style="position:  relative; height: 623px;">
+            <!--TODO: use plugin that allows you to loop properly-->
+            <div style="position: absolute; display: flex; flex-direction: column; justify-content: space-between; height: 100%;" >
+                <marquee class="T1-T4" direction="right">
+                    <div style="display: flex;">
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary01-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                    </div>
+                </marquee>
+                <marquee class="T1-T4" direction="left">
+                    <div style="display: flex;">
+                        <div class="primary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="primary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="primary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="primary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="primary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                    </div>
+                </marquee>
+                <marquee class="T1-T4" direction="right">
+                    <div style="display: flex;">
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="secondary02-text">How Budss Works</div>
+                        <div style="margin-left: 30px;"></div>
+                        <div class="gray-text">How Budss Works</div>
+                        <div style="margin-left: 300px;"></div>
+                    </div>
+                </marquee>
+            </div>
+            <img  style="height: 100%; position: absolute; left: 50%; transform: translate(-50%);" src="images/phone.png" alt="phone">
+            
+        </section>
+        <div style="height: 70px;"></div>
+        <section id="stats" style="display: flex;  justify-content: center; background-color: var(--primary01);">
+            
+            <div class="flex-row">
+                <div class="T3-T6">15%</div>
+                <div class="S2-S4 desktop">Increase<br> in Purchase Amount</div>
+                <div class="S2-S4 mobile">Increase in Purchase Amount</div>
+            </div>
+            <div class="flex-row">
+                <div class="T3-T6">30%</div>
+                <div class="S2-S4 desktop">Growth<br> in Annual Sales</div>
+                <div class="S2-S4 mobile">Growth in Annual Sales</div>
+            </div>
+            <div class="flex-row">
+                <div class="T3-T6">10%</div>
+                <div class="S2-S4 desktop">Growth in New<br> Customers</div>
+                <div class="S2-S4 mobile">Growth in New Customers</div>
+            </div>
+        </section>
+        
+        <section style="display: flex; flex-direction: column; align-items: center; margin-top: 80px;" id="why-budss">
+            <div class="T3-T6">Why budss</div>
+            <div style="margin-top: 20px;" class="S1-S2">We Provide Advanced Payment Solutions</div>
+            <div style="white-space: pre; background-repeat: no-repeat; background-image: url(images/line2.png);" class="S1-S2">  To Grow Your Business </div>
+            
+            <div class="div-why-budss">
+                <div id="why-budss-1" style=" background-color: var(--grayscale06); border-radius: 30px;
+                background-image: url(images/background1.png); background-repeat: no-repeat;">
+                    <div id="why-budss-1-txt" style="margin-top: 20px; margin-right: 20px;">
+                        <div class="T5-T7">Turn your customers into loyal influencers</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S6-B2">Budss helps businesses harness the exponential power of 
+                            loyal customers for acquisition and retention.</div>
+                    </div>
+                </div>
+                <div id="why-budss-2" style=" background-color: var(--grayscale06); border-radius: 30px;
+                display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div style="margin-left: 20px; margin-top: 20px;" id="why-budss-2-txt">
+                            <div class="T5-T7">Harness the power<br> of buying in bulk</div>
+                            <div class="separator-height-10"></div>
+                            <div class="S6-B2">Get at least 2X more sales with Budss Buying<br>
+                                 Groups. Your customer base will grow<br>
+                                  exponentially as your customers add their<br>
+                                   friends & family to your personalized group.</div>
+                        </div>
+                        <img style="margin-top: 30px;" width="88px" height="167px" src="images/bag3.png" alt="">
+                    </div>
+                    <div style="position: relative; display: flex;">
+                        <img style="position: absolute; bottom: 0; left: 40px;" src="images/bag1.png" alt="">
+                        <img style="position: absolute; bottom: 0; right: 40px;" src="images/bag2.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="div-why-budss">
+                <div  style=" background-color: var(--grayscale06); border-radius: 30px;
+                background-image: url(images/background3.png); background-repeat: no-repeat; background-position: bottom right;">
+                    <div style="padding: 30px;">
+                        <div class="T5-T7">Supercharge<br> Loyalty With Instant<br> Cash Back</div>
+                        <div class="separator-height-10"></div>
+                        <div class="S6-B2">Budss allows for shoppers to earn<br> immediate cash back at their<br> favorite stores.</div>
+                    </div>
+                </div>
+                <div  style="background-color: var(--grayscale06); border-radius: 30px;
+                display: flex; flex-direction: row; justify-content: space-between;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div style="margin-left: 20px; margin-top: 20px;" id="why-budss-2-txt">
+                            <div class="T5-T7">Seasoned with AI<br> and Gamification</div>
+                            <div class="separator-height-10"></div>
+                            <div class="S6-B2">AI programming creates a personalized<br>
+                                 customer journey, offering recommendations<br>
+                                  for their next purchase and optimizing<br> rewards for after purchase.</div>
+                        </div>
+                        
+                    </div>
+                    <img style="margin-left: 50px; margin-right: 50px; margin-top: 30px;" src="images/background4.png" alt="">
+                </div>
+            </div>
+            <div style="height: 60px;"></div>
+        </section>
+
+        <section id="ending" style=" color: var(--grayscale00); background-color: var(--grayscale06);">
+            <div style="height: 80px;"></div>
+            
+            <div style="width: 80%; transform: translate(10%); display: flex; padding: 15px; align-items: center; flex-direction: column;  
+            border: 1px solid var(--grayscale04); border-radius: 30px;">
+                <div style="margin: 20px; text-align: center;" class="T3-T6">Let  Your Business Grow</div>
+                <button style="margin: 20px; border: 0px;" class="btn-contact-sales S4_SemiBold_20">Contact sales</button>
+            </div>
+
+            <div id="txt-and-logos" style="margin-top: 80px; display: flex; justify-content: center; gap: 50px;">
+                <div>
+                    <div class="T2-T6">Your Brand<br> Awareness Maters</div>
+                    <div class="S6-B2">Budss is a husle free solution to put your brand on any digital<br>
+                            surface including Instagram, Facebook, Twitter and TikTok</div>
+                </div>
+                
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/facebook.png" alt="facebook">
+                        </td>
+                        <td class="tdsep"></td>  
+                        <td>
+                            <img src="images/instagram.png" alt="instagram">
+                        </td>
+                        <td class="tdsep"></td>   
+                    </tr>
+                    <tr>
+                        <td class="tdsep"></td>   
+                        <td>
+                            <img src="images/twitter.png" alt="twitter">
+                        </td>
+                        <td class="tdsep"></td>    
+                        <td>
+                            <img src="images/tiktok.png" alt="tiktok">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="logos" style="display: flex; justify-content: space-between;
+             margin-top: 80px; width: 90%; transform: translate(5%); gap: 20px;">
+                <div>
+                    <img src="images/woo-commerce.png" alt="">
+                    
+                </div>
+                <div>
+                    <img src="images/shopify.png" alt="">
+                </div>
+                <div>
+                    <img src="images/square.png" alt="">
+                    
+                </div>
+                <div>
+                    <img src="images/squarespace.png" alt="">
+                </div>
+                <div>
+                    <img src="images/clover.png" alt="">
+                </div>
+            </div>
+            <div style="height: 80px;"></div>
+        </section>
+        <footer style="margin-top: 60px; width: 90%; transform: translate(5%); ">
+            <div id="footer" style="display: flex; justify-content: space-between;">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                    <div style="font-size: 37px; font-weight: 600;">budss</div>
+                </div>
+                <div class="row-column" style="display: flex; gap: 40px;">
+                    <div class="S5_Medium_20">For Business</div>
+                    <div class="S5_Medium_20">For Customers</div>
+                </div>
+                
+                <div class="row-column" style="display: flex; gap: 20px; float: right;">
+                    <button id="btn-contact-sales-footer" class="btn-contact-sales S4_SemiBold_20">Contact sales</button>
+                    <button class="btn-store" style="width: 194px;  background-image: url(images/appstore.png);"></button>
+                    <button class="btn-store" style="width: 196px; background-image: url(images/googleplay.png);"></button>
+                </div>
+                
+            </div>
+            <div style="margin-top: 20px; margin-bottom: 20px; background-color: var(--grayscale02); height: 2px;"></div>
+            <div style="display: flex; justify-content: space-between;">
+                <div B5_Light_14>© Copyright 2023, All Rights Reserved by Budss</div>
+                <div style="float: right; display: flex; gap: 20px;">
+                    <div B5_Light_14>Privacy Policy</div>
+                    <div B5_Light_14>Terms Of Use - Seller</div>
+                    <div B5_Light_14>Terms of Use - Sellers & Customers</div>
+                </div>
+            </div>
+            <div style="height: 40px;"></div>
+        </footer>
+
+        <div id="cookie-banner" style="display: flex; justify-content: space-between; flex-direction: row; position: fixed; bottom: 0; 
+        width: 80%; transform: translate(10%); background: var(--grayscale07); 
+        color:black; padding: 20px; margin: 20px; border-radius: 16px; gap: 30px;">
+            <div>This website uses cookies to ensure you get the best experience on our website. They also<br>
+                 allow us to analyze user behavior in order to constantly improve the website for you.</div>
+            <button class="S4_SemiBold_20 right-align" id="accept-cookies" style="background: var(--primary01); border-radius: 16px; border: none; color: white; 
+            padding: 15px 32px; cursor: pointer;">Accept</button>
+        </div>
+
+        <form id="contact-sales" style="color: var(--grayscale00); background-color:var(--grayscale07); border-radius: 20px;
+         display: flex; flex-direction: column; padding: 20px; position: fixed; top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); visibility: hidden; z-index: 30;
+    padding-left: 50px; padding-right: 50px;">
+            <button id="close-contact-sales" onclick="closeContactSales()" class="btn-close"></button>
+            <label class="B3-700" for="name">Name <span class="span-red">*</span></label><br>
+            <input class="label B4" type="text" id="name" name="name" placeholder="Enter name" required><br>
+            <label class="B3-700" for="email">Email <span class="span-red">*</span></label><br>
+            <input class="label B4" type="email" id="email" name="email" placeholder="Enter email" required><br>
+            <label class="B3-700" for="phone">Phone number <span class="span-red">*</span></label><br>
+            <input class="label B4" type="text" id="phone" name="phone" placeholder="+1 000 000 00 00" required><br>
+            <label class="B3-700" for="company">Company</label><br>
+            <input class="label B4" type="text" id="company" name="company" placeholder="Enter company"><br>
+            <label class="B3-700" for="website">Website/Store URL</label><br>
+            <input class="label B4" type="url" id="website" name="website" placeholder="Enter Website/Store URL"><br>
+            <input onclick="thankyou()" class="btn-contact-sales S4_SemiBold_20" type="submit" value="Contact Sales">
+        </form>
+
+        <form id="thank-you" style="color: var(--grayscale00); background-color:var(--grayscale07); border-radius: 20px;
+        display: flex; flex-direction: column; padding: 20px; position: fixed; top: 50%;
+   left: 50%;transform: translate(-50%, -50%); visibility: visible; z-index: 30; text-align: center;
+   padding-left: 50px; padding-right: 50px; gap: 15px; padding-bottom: 40px;">
+            <img src="images/thanks.png" alt="">
+            <div class="S1-S2" style="color: var(--primary02);">Thank you!</div>
+            <div class="S3-S6">Thank you, we have received<br> your application and will contact<br> you soon!</div>
+            <input class="btn-close" type="submit" value="">
+            <input type="submit" value="Super!" class="S4_SemiBold_20" style="color: var(--grayscale07);
+            border: none; background-color: var(--primary02); border-radius: 16px; padding: 16px;">
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
