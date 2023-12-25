@@ -1,4 +1,4 @@
-Known problems:
+<h2>Known problems:</h2>
 
 -Not all design made according to Figma
 
