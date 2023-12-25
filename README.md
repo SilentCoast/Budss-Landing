@@ -1,5 +1,5 @@
-Known problems:
--
+<h2>Known problems:</h2>
+
 -Not all design made according to Figma
 
 -The design is not so responsive
@@ -9,6 +9,7 @@ Known problems:
 -Horizontal scroll bar allows you to scroll when there is nowhere to scroll
 
 -Overall code cleanup
+
 
 ![image](https://github.com/SilentCoast/Budss-Landing/assets/94042423/5ddf617a-ca6c-4d4b-bc08-dfd3762e4411)
 ![image](https://github.com/SilentCoast/Budss-Landing/assets/94042423/dfa78462-eb17-4daf-afef-81b42c51a0af)
