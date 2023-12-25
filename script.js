@@ -41,3 +41,10 @@ function closeContactSales(){
 function thankyou(){
     document.getElementById("thank-you").style.visibility = "visible";
 }
+$('#contact-sales').on('submit',function(e){
+    if(this.checkValidity()){
+        closeContactSales();
+        e.preventDefault();
+        thankyou();
+    }
+});
