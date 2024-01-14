@@ -1,8 +1,6 @@
-https://drive.google.com/drive/folders/1n3d99CsnH5pKrSGD6bylgwGeqq0_wI-N?usp=drive_link
-
 <h2>Known problems:</h2>
 
--Not all design made according to Figma
+-Some design made not according to Figma
 
 -The design is not so responsive
 
