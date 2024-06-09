@@ -2,7 +2,7 @@
 
 Landing page for a business
 
-<table>
+<table style="border: 2px solid black;">
   <tr>
     <td><img src="https://github.com/SilentCoast/Budss-Landing/assets/94042423/5ddf617a-ca6c-4d4b-bc08-dfd3762e4411" alt="image"></td>
     <td><img src="https://github.com/SilentCoast/Budss-Landing/assets/94042423/17032ce2-ae32-420a-8362-5cde61411890" alt="image"></td>
@@ -17,7 +17,7 @@ Landing page for a business
   </tr>
 </table>
 
-<table>
+<table style="border: 2px solid black;">
   <tr>
     <td><img src="https://github.com/SilentCoast/Budss-Landing/assets/94042423/c750858c-f7da-46e0-a6e4-3f747acc5ec2" alt="image"></td>
     <td><img src="https://github.com/SilentCoast/Budss-Landing/assets/94042423/d074a5ff-ada8-4173-920a-5e05132d76dc" alt="image"></td>
